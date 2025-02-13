@@ -35,4 +35,4 @@ if ($lembur >=300){
 $potongan = ($gaji * $pajak) / 100;
 $hasil = $gaji - $potongan + $bonus;
 
-echo "Gaji beliau adalah = " . $hasil;
+echo "Gaji beliau adalah = " . $gaji . " - " . $potongan . " + " . $bonus . " = " . $hasil;
